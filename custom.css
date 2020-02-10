@@ -1,0 +1,30 @@
+html body .container#notebook-container {
+  box-shadow: none;
+}
+.cell.code_cell .input {
+  display: none;
+}
+
+.cell.code_cell .input {
+  display: none;
+}
+
+.cell.code_cell.show-code .input {
+  display: inherit;
+}
+
+.prompt.output_prompt {
+  opacity: 0;
+}
+
+.toggle-code {
+  cursor: pointer;
+  display: flex;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 10px;
+  background: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: min-content;
+}
